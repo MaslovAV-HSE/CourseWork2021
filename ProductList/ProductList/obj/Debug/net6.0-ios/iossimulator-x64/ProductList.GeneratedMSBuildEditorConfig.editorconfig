@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProductList
+build_property.ProjectDir = C:\Users\Maslov Alexander\Desktop\Курсач 2021\ProductList\ProductList\
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Pages/Account.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Pages.Account.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Account.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Account.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Pages/Authorization.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Pages.Authorization.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Authorization.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Authorization.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Pages/ListItems.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Pages.ListItems.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ListItems.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ListItems.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Pages/Lists.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Pages.Lists.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Lists.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Lists.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Pages/Recomendations.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Pages.Recomendations.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Recomendations.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Recomendations.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Pages/Registration.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Pages.Registration.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Registration.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Registration.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Shared/MainLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Shared.MainLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = Shared\MainLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = Shared\MainLayout.xaml
+
+[C:/Users/Maslov Alexander/Desktop/Курсач 2021/ProductList/ProductList/Views/ProductListView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProductList.Views.ProductListView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductListView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductListView.xaml

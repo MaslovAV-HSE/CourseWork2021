@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProductList.Pages.Lists"
+             Title="Мои списки ">
+    <ScrollView>
+        <StackLayout>
+            <Grid x:Name="MainGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Border Stroke="#C49B33"
+        StrokeThickness="4"
+        StrokeShape="RoundRectangle 40,0,0,40"
+        Background="#2B0B98"
+        Padding="16,8"
+        HorizontalOptions="Center">
+                <Label Text="Тестовый список"
+           TextColor="White"
+           FontSize="18"
+           FontAttributes="Bold" />
+            </Border>
+            <Border Stroke="#C49B33"
+        StrokeThickness="4"
+        StrokeShape="RoundRectangle 40,0,0,40"
+        Background="#2B0B98"
+        Padding="16,8"
+        HorizontalOptions="Center">
+                <Label Text="Список покупок"
+           TextColor="White"
+           FontSize="18"
+           FontAttributes="Bold" />
+            
+            </Border>
+
+            <Border Stroke="#C49B33"
+        StrokeThickness="4"
+        StrokeShape="RoundRectangle 40,0,0,40"
+        Background="#2B0B98"
+        Padding="16,8"
+        HorizontalOptions="Center">
+                <Label Text="Мой список"
+           TextColor="White"
+           FontSize="18"
+           FontAttributes="Bold" />
+            </Border>
+            <Button Style="{StaticResource ButtonAdd}" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

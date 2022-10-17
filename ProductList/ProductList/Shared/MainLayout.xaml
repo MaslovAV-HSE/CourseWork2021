@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ProductList.MainLyout"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ProductList.Pages"
+    xmlns:viewModels="clr-namespace:ProductList.Views">
+    
+
+    <Shell.FlyoutBackground>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#304762" Offset="0.1"/>
+            <GradientStop Color="#558574" Offset="0.6"/>
+            <GradientStop Color="#73B49D" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Shell.FlyoutBackground>
+
+
+    <Shell.FlyoutHeader>
+        <StackLayout Margin="10,20,0,10" HorizontalOptions="Center">
+            <Image>
+                
+            </Image>
+            <Frame CornerRadius="45" HorizontalOptions="Center" Padding="0">
+                <Image Source="" HeightRequest="90" WidthRequest="90" Aspect="AspectFill"/>
+            </Frame>
+            <Label x:Name="UserName" Text="" FontSize="18" TextColor="White" HorizontalOptions="Center" Margin="0,10,0,0"/>
+            <Label x:Name="Usermail" Text="" FontSize="12" TextColor="White" HorizontalOptions="Center" Margin="0,10, 0, 0"/>
+
+        </StackLayout>
+    </Shell.FlyoutHeader>
+    
+    <FlyoutItem 
+        x:Name="Items"
+        FlyoutDisplayOptions="AsMultipleItems"
+        Shell.TabBarIsVisible="False">
+        <ShellContent x:Name="Account" Title="Аккаунт" Icon="" ContentTemplate="{DataTemplate local:Account}"/>
+        <ShellContent x:Name="lists" Title="Мои списки" Icon="" ContentTemplate="{DataTemplate local:Lists}"/>
+        <ShellContent x:Name="Rec" Title="Рекомендации" Icon="" ContentTemplate="{DataTemplate local:Recomendations}" IsVisible="False"/>
+        <ShellContent x:Name="Reg" Title="Регистрация" Icon="" ContentTemplate="{DataTemplate local:Registration}"/>
+        <ShellContent x:Name="Auth" Title="Вход" Icon="" ContentTemplate="{DataTemplate local:Authorization}"/>
+    </FlyoutItem>
+
+</Shell>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProductList.Pages.Registration"
+             Title="Регистрация">
+    <ScrollView>
+        <StackLayout Margin="30,60,30,30">
+
+            <Editor x:Name="name"
+                Placeholder="имя"
+                Margin="15">
+            </Editor>
+
+            <Editor x:Name="phone"
+                Placeholder="номер телефона"
+                Margin="15">
+            </Editor>
+
+            <Editor x:Name="email"
+                Placeholder="почта"
+                Margin="15">
+            </Editor>
+
+            <Editor x:Name="login"
+                Placeholder="логин"
+                Margin="15">
+            </Editor>
+
+            <Editor x:Name="password"
+                Placeholder="пароль"
+                Margin="15">
+            </Editor>
+
+            <Label 
+            Text="Уже есть аккаунт?"
+            Style="{StaticResource GoToLabel}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer>
+
+                    </TapGestureRecognizer>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Button Text=" Регистрация"
+                Style="{StaticResource buttonApply}"
+                Clicked="OnButtonEnter_Clicked"
+                />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

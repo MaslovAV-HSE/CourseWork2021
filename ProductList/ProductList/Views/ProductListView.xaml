@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:ProductList.Models"
+             xmlns:serachHandler="clr-namespace:ProductList.SearchHandler1"
+             xmlns:viewModels="clr-namespace:ProductList.ViewModel"
+             x:Class="ProductList.Views.ProductListView"
+             Title="Тестовый список">
+    <Shell.SearchHandler>
+        <serachHandler:ProductSearchHandler 
+            DisplayMemberName="Name"
+            Products="{x:Static viewModels:ProductListViewModel.Products}">
+        </serachHandler:ProductSearchHandler>
+        
+    </Shell.SearchHandler>
+    <VerticalStackLayout>
+        <Frame BorderColor="Gray"
+       CornerRadius="10" Margin="10">
+            <Label Text="Апельсин"/>
+        </Frame>
+
+        <Frame BorderColor="Gray"
+       CornerRadius="10" Margin="10">
+            <Label Text="Газированная вода"/>
+        </Frame>
+
+        <Frame BorderColor="Gray"
+       CornerRadius="10" Margin="10">
+            <Label Text="Средство для мытья посуды"/>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
